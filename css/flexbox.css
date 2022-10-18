@@ -1,0 +1,22 @@
+body {
+    height: 100vh; /* vh stands for viewport height. It is the height of the entire visible area / viewport, i.e. height of browser window. */
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    border: 1px solid red;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    min-width: 200px;
+    height: 150px;
+    background-color: yellow;
+    border: 1px solid black;
+}

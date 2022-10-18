@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css" />
+        <style>
+            h1 {
+                color: yellow;
+            }
+        </style>
+    </head>
+    <body>
+        <article>
+            <!-- 
+                 Inline Styles are bad since they won't allow you to apply 
+                 global styles from external stylesheets. E.g. styles.css 
+                 in our case will get overridden by inline styles. 
+                 Never use them unless extremely necessary.
+            -->
+            <h1 style="color: blue">How to use CSS to style a webpage</h1>
+            <p>An easy CSS guide</p>
+            <section>
+                <h3>Step 1</h3>
+                <p>Create a CSS file......</p>
+                <p>Paragraphs are block elements but <span>span</span> and <em>em</em> are inline elements</p>
+                <p>Paragraphs are block elements but <span>span</span> and <em>em</em> are inline elements</p>
+            </section>
+            <section>
+                <h3>Step 2</h3>
+                <p>Link it to the HTML page....</p>
+            </section>
+            <section>
+                <h3>Step 3</h3>
+                <p>Add all styling code to the CSS file...</p>
+            </section>
+
+            <button class="button subscribe-button">Subscribe</button>
+            <button class="button like-button">Like</button>
+
+            <button id="back-button">Back Button</button>
+            <button id="next-button">Next Button</button>
+
+            <div style="height: 500px"></div>
+        </article>
+
+        <hr />
+
+        <!-- Lists -->
+        <!-- Unordered List -->
+        <h3>Groceries</h3>
+        <ul>
+            <li>Bread</li>
+            <li>Jam</li>
+            <li>Mango</li>
+        </ul>
+
+        <!-- Ordered List -->
+        <h3>My learning plan</h3>
+        <ol>
+            <li>Letters</li>
+            <li>Words</li>
+            <li>Sentences</li>
+        </ol>
+    </body>
+</html>

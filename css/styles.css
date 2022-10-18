@@ -1,0 +1,94 @@
+/* CSS - Cascading Style Sheets  */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: blue;
+    color: yellow; */
+}
+
+/* h1 {
+    color: green;
+}
+
+h3 {
+    color: green;
+} */
+
+h1,
+h3 {
+    color: green;
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    margin: 10px;
+}
+
+p {
+    text-align: left;
+    background-color: yellow;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+em {
+    background-color: green;
+}
+
+span {
+    background-color: blue;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+ol {
+    list-style-type: lower-roman;
+}
+
+.button {
+    padding: 10px;
+    margin: 20px;
+    cursor: pointer;
+    background-color: brown;
+}
+
+.button:hover {
+    background-color: aquamarine;
+}
+
+.button:active {
+    background-color: darkorange;
+}
+
+.subscribe-button {
+    background-color: yellowgreen;
+}
+
+.like-button {
+    background-color: blue;
+}
+
+article {
+    width: 80%;
+    border: 1px solid red;
+    margin: 0 auto;
+}
+
+article p {
+    background-color: burlywood;
+}
+
+#back-button,
+#next-button {
+    padding: 10px;
+    margin: 20px;
+    cursor: pointer;
+    background-color: chartreuse;
+}

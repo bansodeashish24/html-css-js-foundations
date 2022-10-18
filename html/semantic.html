@@ -1,0 +1,53 @@
+<!-- Div soup | BAD CODE -->
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <div>
+            My blog
+            <div>
+                <div>
+                    <span>About</span>
+                    <span>All blogs</span>
+                    <span>Coding blogs</span>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div>
+                <div>How to get good at coding</div>
+                <div>Step 1</div>
+                <div>Step 2</div>
+            </div>
+            <div></div>
+        </div>
+        <div></div>
+    </body>
+</html>
+
+<!-- Semantic HTML - meaningful HTML | GOOD CODE -->
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <header>
+            My blog
+            <nav>
+                <ul>
+                    <li>About</li>
+                    <li>All blogs</li>
+                    <li>Coding blogs</li>
+                </ul>
+            </nav>
+        </header>
+        <div>
+            <article>
+                <h3>How to get good at coding</h3>
+                <section>Step 1</section>
+                <section>Step 2</section>
+            </article>
+            <aside></aside>
+        </div>
+        <footer></footer>
+    </body>
+</html>
